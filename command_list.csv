@@ -1,0 +1,49 @@
+    1  clear
+    2  git config --global user.name "Iryna"
+    3  git config --global user.email "irynarugu@gmail.com"
+    4  git config --global user.email irynarugu@gmail.com
+    5  clear
+    6  git clone https://github.com/IrynaGit/HW_10.git
+    7  cd HW_10/
+    8  touch text_ignore.txt
+    9  git status
+   10  git add text_ignore.txt
+   11  -f
+   12  git add text_ignore.txt
+   13  git add -f text_ignore.txt
+   14  git add text_ignore.txt
+   15  git status
+   16  git add text_ignore.txt
+   17  git status
+   18  git status
+   19  git add text_ignore.txt
+   20  git status
+   21  git add text_ignore.txt
+   22  git commit -m "New file was created"
+   23  git status
+   24  git add text_ignore.txt
+   25  git commit -m "Коміт змін у файлі text_ignore.txt"
+   26  git add.
+   27  git add .
+   28  git commit -m "Коміт змін у файлі text_ignore.txt"
+   29  git status
+   30  touch main_test.txt
+   31  git add.
+   32  git add .
+   33  git commit -m "Коміт для файлу main_test.txt"
+   34  git log
+   35  git branch
+   36  git checkout -b develop
+   37  git branch
+   38  touch develop_test.txt
+   39  git add .
+   40  git commit -m "Коміт для файлу develop_test.txt"
+   41  ls
+   42  nano develop_test.txt
+   43  git status
+   44  git add .
+   45  git commit -m "File was modified"
+   46  git checkout main
+   47  git merge develop
+   48  git log
+   49  history > command_list.csv
